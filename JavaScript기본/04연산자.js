@@ -50,5 +50,5 @@
 
 //null 병합 연산자.
 let a; // undefine임
-a = a ?? 10; // ?? : null 병합 연산자임
+a = a ? ? 10; // ?? : null 병합 연산자임
 console.log(a);
