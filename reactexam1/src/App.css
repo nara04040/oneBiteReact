@@ -1,5 +1,6 @@
-.App {
-  background-color: black;
+div {
+  text-align: center;
+  font-size: 30px;
 }
 
 h2 {
@@ -8,4 +9,9 @@ h2 {
 
 #bold_text {
   color: green;
+}
+
+button {
+  padding: 20px;
+  font-size: 100px;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
-// import './App.css';
+import Counter from './Counter';
+import './App.css';
 
 import MyHeader from "./MyHeader"
 
@@ -9,7 +10,7 @@ function App() {
     App : {
       backgroundColor: "black"
     },
-    h2 : {
+    h2  : {
       color: 'red'
     },
     bold_text: {
@@ -19,12 +20,9 @@ function App() {
   const number = 5;
 
   return (
-    <div style={style.App}>
+    <div>
       <MyHeader />
-        <h2 style={style.h2}>안녕리액트</h2>
-        <b style={style.bold_text}>
-          {number} : {number % 2 === 0 ? "짝수" : "홀수"}
-        </b>
+        <Counter />
     </div> 
   );
 }
