@@ -1,15 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return ( <
-    div className = "App" >
-    <
-    header className = "App-header" >
-    <
-    h2 > 안녕리액트 < /h2> <
-    /header> <
-    /div>
+  let name = 'nara'
+  return (
+    <div className="App">
+      <header className="App-header">
+        <h2>안녕리액트 {name} </h2>
+      </header>
+    </div> 
   );
 }
 

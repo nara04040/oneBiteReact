@@ -1,3 +1,5 @@
+// 자바스크립트는 불리언값이 아니라도 true , false가 나올수있다.
+
 // let a = Infinity;
 
 // if (a) {
